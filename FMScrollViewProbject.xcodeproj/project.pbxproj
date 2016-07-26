@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32030A941CE07C9400D42C75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030A931CE07C9400D42C75 /* main.m */; };
+		32030A971CE07C9400D42C75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030A961CE07C9400D42C75 /* AppDelegate.m */; };
+		32030A9D1CE07C9400D42C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32030A9B1CE07C9400D42C75 /* Main.storyboard */; };
+		32030A9F1CE07C9400D42C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32030A9E1CE07C9400D42C75 /* Assets.xcassets */; };
+		32030AA21CE07C9400D42C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32030AA01CE07C9400D42C75 /* LaunchScreen.storyboard */; };
+		32030AAD1CE07C9400D42C75 /* FMScrollViewProbjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AAC1CE07C9400D42C75 /* FMScrollViewProbjectTests.m */; };
+		32030AB81CE07C9400D42C75 /* FMScrollViewProbjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AB71CE07C9400D42C75 /* FMScrollViewProbjectUITests.m */; };
+		32030AD31CE07D1100D42C75 /* FMTestExpandScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AC91CE07D1100D42C75 /* FMTestExpandScrollViewCell.m */; };
+		32030AD41CE07D1100D42C75 /* FMTestFooterScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030ACB1CE07D1100D42C75 /* FMTestFooterScrollViewCell.m */; };
+		32030AD51CE07D1100D42C75 /* FMTestHeaderScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030ACD1CE07D1100D42C75 /* FMTestHeaderScrollViewCell.m */; };
+		32030AD61CE07D1100D42C75 /* FMTestScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030ACF1CE07D1100D42C75 /* FMTestScrollViewCell.m */; };
+		32030AD71CE07D1100D42C75 /* FMTestScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AD11CE07D1100D42C75 /* FMTestScrollViewController.m */; };
+		32030ADF1CE07D4200D42C75 /* FMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030ADA1CE07D4200D42C75 /* FMScrollView.m */; };
+		32030AE01CE07D4200D42C75 /* FMScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030ADC1CE07D4200D42C75 /* FMScrollViewCell.m */; };
+		32030AE11CE07D4200D42C75 /* FMScrollViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030ADE1CE07D4200D42C75 /* FMScrollViewManager.m */; };
+		32030AEB1CE07DFC00D42C75 /* FMDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AEA1CE07DFC00D42C75 /* FMDataManager.m */; };
+		32030AFC1CE07F6600D42C75 /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AF51CE07F6600D42C75 /* NSDictionary+Utils.m */; };
+		32030AFD1CE07F6600D42C75 /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AF71CE07F6600D42C75 /* NSObject+Utils.m */; };
+		32030AFE1CE07F6600D42C75 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AF91CE07F6600D42C75 /* NSString+Utils.m */; };
+		32030AFF1CE07F6600D42C75 /* UIView+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030AFB1CE07F6600D42C75 /* UIView+extension.m */; };
+		32030B081CE07FBD00D42C75 /* FMBaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B021CE07FBD00D42C75 /* FMBaseDTO.m */; };
+		32030B091CE07FBD00D42C75 /* FMImgPickerDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B051CE07FBD00D42C75 /* FMImgPickerDTO.m */; };
+		32030B0A1CE07FBD00D42C75 /* FMImgPickerTableDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B071CE07FBD00D42C75 /* FMImgPickerTableDTO.m */; };
+		32030B151CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B0D1CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.m */; };
+		32030B161CE0809F00D42C75 /* PZRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B0F1CE0809F00D42C75 /* PZRefreshControl.m */; };
+		32030B171CE0809F00D42C75 /* PZRefreshControlDefaultStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B111CE0809F00D42C75 /* PZRefreshControlDefaultStyle.m */; };
+		32030B181CE0809F00D42C75 /* PZRefreshNormalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B141CE0809F00D42C75 /* PZRefreshNormalControl.m */; };
+		32030B2F1CE0848500D42C75 /* FMImgPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B1C1CE0848500D42C75 /* FMImgPickerViewController.m */; };
+		32030B301CE0848500D42C75 /* FMImgPickerHeaderViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B201CE0848500D42C75 /* FMImgPickerHeaderViewCell.m */; };
+		32030B311CE0848500D42C75 /* FMImgPickerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B221CE0848500D42C75 /* FMImgPickerTableViewCell.m */; };
+		32030B321CE0848500D42C75 /* FMImgPickerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B241CE0848500D42C75 /* FMImgPickerViewCell.m */; };
+		32030B3C1CE0866600D42C75 /* FMTestFooterDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B3B1CE0866600D42C75 /* FMTestFooterDTO.m */; };
+		32030B3F1CE086FE00D42C75 /* FMTestHeaderDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B3E1CE086FE00D42C75 /* FMTestHeaderDTO.m */; };
+		32030B421CE092CA00D42C75 /* FMTestScrollViewDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B411CE092CA00D42C75 /* FMTestScrollViewDTO.m */; };
+		32030B451CE0953D00D42C75 /* FMTestExpandDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B441CE0953D00D42C75 /* FMTestExpandDTO.m */; };
+		320C13EF1D47593800D77B7C /* FMAutoLayoutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13DC1D47593800D77B7C /* FMAutoLayoutModel.m */; };
+		320C13F01D47593800D77B7C /* FMAutoLayoutModelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13DE1D47593800D77B7C /* FMAutoLayoutModelItem.m */; };
+		320C13F11D47593800D77B7C /* FMUIViewCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13E01D47593800D77B7C /* FMUIViewCategoryManager.m */; };
+		320C13F21D47593800D77B7C /* UILabel+FMLabelAutoResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13E21D47593800D77B7C /* UILabel+FMLabelAutoResize.m */; };
+		320C13F31D47593800D77B7C /* UIScrollView+FMAutoContentSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13E41D47593800D77B7C /* UIScrollView+FMAutoContentSize.m */; };
+		320C13F41D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13E61D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.m */; };
+		320C13F51D47593800D77B7C /* UIView+FMAutoHeightWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13E81D47593800D77B7C /* UIView+FMAutoHeightWidth.m */; };
+		320C13F61D47593800D77B7C /* UIView+FMAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13EA1D47593800D77B7C /* UIView+FMAutoLayout.m */; };
+		320C13F71D47593800D77B7C /* UIView+FMChangeFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13EC1D47593800D77B7C /* UIView+FMChangeFrame.m */; };
+		320C13F81D47593800D77B7C /* UIView+FMLayoutExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13EE1D47593800D77B7C /* UIView+FMLayoutExtention.m */; };
+		320C13FB1D47599600D77B7C /* FMImgPickerTitleButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 320C13FA1D47599600D77B7C /* FMImgPickerTitleButtonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32030AA91CE07C9400D42C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32030A871CE07C9400D42C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32030A8E1CE07C9400D42C75;
+			remoteInfo = FMScrollViewProbject;
+		};
+		32030AB41CE07C9400D42C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32030A871CE07C9400D42C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32030A8E1CE07C9400D42C75;
+			remoteInfo = FMScrollViewProbject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32030A8F1CE07C9400D42C75 /* FMScrollViewProbject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMScrollViewProbject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32030A931CE07C9400D42C75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32030A951CE07C9400D42C75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32030A961CE07C9400D42C75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32030A9C1CE07C9400D42C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32030A9E1CE07C9400D42C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32030AA11CE07C9400D42C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32030AA31CE07C9400D42C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32030AA81CE07C9400D42C75 /* FMScrollViewProbjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMScrollViewProbjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32030AAC1CE07C9400D42C75 /* FMScrollViewProbjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScrollViewProbjectTests.m; sourceTree = "<group>"; };
+		32030AAE1CE07C9400D42C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32030AB31CE07C9400D42C75 /* FMScrollViewProbjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMScrollViewProbjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32030AB71CE07C9400D42C75 /* FMScrollViewProbjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMScrollViewProbjectUITests.m; sourceTree = "<group>"; };
+		32030AB91CE07C9400D42C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32030AC81CE07D1100D42C75 /* FMTestExpandScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestExpandScrollViewCell.h; sourceTree = "<group>"; };
+		32030AC91CE07D1100D42C75 /* FMTestExpandScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestExpandScrollViewCell.m; sourceTree = "<group>"; };
+		32030ACA1CE07D1100D42C75 /* FMTestFooterScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestFooterScrollViewCell.h; sourceTree = "<group>"; };
+		32030ACB1CE07D1100D42C75 /* FMTestFooterScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestFooterScrollViewCell.m; sourceTree = "<group>"; };
+		32030ACC1CE07D1100D42C75 /* FMTestHeaderScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestHeaderScrollViewCell.h; sourceTree = "<group>"; };
+		32030ACD1CE07D1100D42C75 /* FMTestHeaderScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestHeaderScrollViewCell.m; sourceTree = "<group>"; };
+		32030ACE1CE07D1100D42C75 /* FMTestScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestScrollViewCell.h; sourceTree = "<group>"; };
+		32030ACF1CE07D1100D42C75 /* FMTestScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestScrollViewCell.m; sourceTree = "<group>"; };
+		32030AD01CE07D1100D42C75 /* FMTestScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestScrollViewController.h; sourceTree = "<group>"; };
+		32030AD11CE07D1100D42C75 /* FMTestScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestScrollViewController.m; sourceTree = "<group>"; };
+		32030AD91CE07D4200D42C75 /* FMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScrollView.h; sourceTree = "<group>"; };
+		32030ADA1CE07D4200D42C75 /* FMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScrollView.m; sourceTree = "<group>"; };
+		32030ADB1CE07D4200D42C75 /* FMScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScrollViewCell.h; sourceTree = "<group>"; };
+		32030ADC1CE07D4200D42C75 /* FMScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScrollViewCell.m; sourceTree = "<group>"; };
+		32030ADD1CE07D4200D42C75 /* FMScrollViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMScrollViewManager.h; sourceTree = "<group>"; };
+		32030ADE1CE07D4200D42C75 /* FMScrollViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMScrollViewManager.m; sourceTree = "<group>"; };
+		32030AE21CE07D6C00D42C75 /* FMConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMConfigure.h; sourceTree = "<group>"; };
+		32030AE91CE07DFC00D42C75 /* FMDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDataManager.h; sourceTree = "<group>"; };
+		32030AEA1CE07DFC00D42C75 /* FMDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDataManager.m; sourceTree = "<group>"; };
+		32030AF41CE07F6600D42C75 /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		32030AF51CE07F6600D42C75 /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
+		32030AF61CE07F6600D42C75 /* NSObject+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
+		32030AF71CE07F6600D42C75 /* NSObject+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utils.m"; sourceTree = "<group>"; };
+		32030AF81CE07F6600D42C75 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		32030AF91CE07F6600D42C75 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		32030AFA1CE07F6600D42C75 /* UIView+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extension.h"; sourceTree = "<group>"; };
+		32030AFB1CE07F6600D42C75 /* UIView+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extension.m"; sourceTree = "<group>"; };
+		32030B011CE07FBD00D42C75 /* FMBaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMBaseDTO.h; sourceTree = "<group>"; };
+		32030B021CE07FBD00D42C75 /* FMBaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMBaseDTO.m; sourceTree = "<group>"; };
+		32030B041CE07FBD00D42C75 /* FMImgPickerDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerDTO.h; sourceTree = "<group>"; };
+		32030B051CE07FBD00D42C75 /* FMImgPickerDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerDTO.m; sourceTree = "<group>"; };
+		32030B061CE07FBD00D42C75 /* FMImgPickerTableDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerTableDTO.h; sourceTree = "<group>"; };
+		32030B071CE07FBD00D42C75 /* FMImgPickerTableDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerTableDTO.m; sourceTree = "<group>"; };
+		32030B0C1CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZPathAnimCircleRefreshControl.h; sourceTree = "<group>"; };
+		32030B0D1CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZPathAnimCircleRefreshControl.m; sourceTree = "<group>"; };
+		32030B0E1CE0809F00D42C75 /* PZRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZRefreshControl.h; sourceTree = "<group>"; };
+		32030B0F1CE0809F00D42C75 /* PZRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZRefreshControl.m; sourceTree = "<group>"; };
+		32030B101CE0809F00D42C75 /* PZRefreshControlDefaultStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZRefreshControlDefaultStyle.h; sourceTree = "<group>"; };
+		32030B111CE0809F00D42C75 /* PZRefreshControlDefaultStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZRefreshControlDefaultStyle.m; sourceTree = "<group>"; };
+		32030B121CE0809F00D42C75 /* PZRefreshControlStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZRefreshControlStyle.h; sourceTree = "<group>"; };
+		32030B131CE0809F00D42C75 /* PZRefreshNormalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PZRefreshNormalControl.h; sourceTree = "<group>"; };
+		32030B141CE0809F00D42C75 /* PZRefreshNormalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PZRefreshNormalControl.m; sourceTree = "<group>"; };
+		32030B1B1CE0848500D42C75 /* FMImgPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerViewController.h; sourceTree = "<group>"; };
+		32030B1C1CE0848500D42C75 /* FMImgPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerViewController.m; sourceTree = "<group>"; };
+		32030B1F1CE0848500D42C75 /* FMImgPickerHeaderViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerHeaderViewCell.h; sourceTree = "<group>"; };
+		32030B201CE0848500D42C75 /* FMImgPickerHeaderViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerHeaderViewCell.m; sourceTree = "<group>"; };
+		32030B211CE0848500D42C75 /* FMImgPickerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerTableViewCell.h; sourceTree = "<group>"; };
+		32030B221CE0848500D42C75 /* FMImgPickerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerTableViewCell.m; sourceTree = "<group>"; };
+		32030B231CE0848500D42C75 /* FMImgPickerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerViewCell.h; sourceTree = "<group>"; };
+		32030B241CE0848500D42C75 /* FMImgPickerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerViewCell.m; sourceTree = "<group>"; };
+		32030B3A1CE0866600D42C75 /* FMTestFooterDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestFooterDTO.h; sourceTree = "<group>"; };
+		32030B3B1CE0866600D42C75 /* FMTestFooterDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestFooterDTO.m; sourceTree = "<group>"; };
+		32030B3D1CE086FE00D42C75 /* FMTestHeaderDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestHeaderDTO.h; sourceTree = "<group>"; };
+		32030B3E1CE086FE00D42C75 /* FMTestHeaderDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestHeaderDTO.m; sourceTree = "<group>"; };
+		32030B401CE092CA00D42C75 /* FMTestScrollViewDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestScrollViewDTO.h; sourceTree = "<group>"; };
+		32030B411CE092CA00D42C75 /* FMTestScrollViewDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestScrollViewDTO.m; sourceTree = "<group>"; };
+		32030B431CE0953D00D42C75 /* FMTestExpandDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTestExpandDTO.h; sourceTree = "<group>"; };
+		32030B441CE0953D00D42C75 /* FMTestExpandDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTestExpandDTO.m; sourceTree = "<group>"; };
+		320C13DA1D47593800D77B7C /* AutoLayoutHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutHeader.h; sourceTree = "<group>"; };
+		320C13DB1D47593800D77B7C /* FMAutoLayoutModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAutoLayoutModel.h; sourceTree = "<group>"; };
+		320C13DC1D47593800D77B7C /* FMAutoLayoutModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAutoLayoutModel.m; sourceTree = "<group>"; };
+		320C13DD1D47593800D77B7C /* FMAutoLayoutModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMAutoLayoutModelItem.h; sourceTree = "<group>"; };
+		320C13DE1D47593800D77B7C /* FMAutoLayoutModelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMAutoLayoutModelItem.m; sourceTree = "<group>"; };
+		320C13DF1D47593800D77B7C /* FMUIViewCategoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMUIViewCategoryManager.h; sourceTree = "<group>"; };
+		320C13E01D47593800D77B7C /* FMUIViewCategoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUIViewCategoryManager.m; sourceTree = "<group>"; };
+		320C13E11D47593800D77B7C /* UILabel+FMLabelAutoResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+FMLabelAutoResize.h"; sourceTree = "<group>"; };
+		320C13E21D47593800D77B7C /* UILabel+FMLabelAutoResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+FMLabelAutoResize.m"; sourceTree = "<group>"; };
+		320C13E31D47593800D77B7C /* UIScrollView+FMAutoContentSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FMAutoContentSize.h"; sourceTree = "<group>"; };
+		320C13E41D47593800D77B7C /* UIScrollView+FMAutoContentSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FMAutoContentSize.m"; sourceTree = "<group>"; };
+		320C13E51D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		320C13E61D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		320C13E71D47593800D77B7C /* UIView+FMAutoHeightWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMAutoHeightWidth.h"; sourceTree = "<group>"; };
+		320C13E81D47593800D77B7C /* UIView+FMAutoHeightWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FMAutoHeightWidth.m"; sourceTree = "<group>"; };
+		320C13E91D47593800D77B7C /* UIView+FMAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMAutoLayout.h"; sourceTree = "<group>"; };
+		320C13EA1D47593800D77B7C /* UIView+FMAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FMAutoLayout.m"; sourceTree = "<group>"; };
+		320C13EB1D47593800D77B7C /* UIView+FMChangeFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMChangeFrame.h"; sourceTree = "<group>"; };
+		320C13EC1D47593800D77B7C /* UIView+FMChangeFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FMChangeFrame.m"; sourceTree = "<group>"; };
+		320C13ED1D47593800D77B7C /* UIView+FMLayoutExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FMLayoutExtention.h"; sourceTree = "<group>"; };
+		320C13EE1D47593800D77B7C /* UIView+FMLayoutExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FMLayoutExtention.m"; sourceTree = "<group>"; };
+		320C13F91D47599600D77B7C /* FMImgPickerTitleButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMImgPickerTitleButtonView.h; sourceTree = "<group>"; };
+		320C13FA1D47599600D77B7C /* FMImgPickerTitleButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMImgPickerTitleButtonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32030A8C1CE07C9400D42C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32030AA51CE07C9400D42C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32030AB01CE07C9400D42C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32030A861CE07C9400D42C75 = {
+			isa = PBXGroup;
+			children = (
+				32030A911CE07C9400D42C75 /* FMScrollViewProbject */,
+				32030AAB1CE07C9400D42C75 /* FMScrollViewProbjectTests */,
+				32030AB61CE07C9400D42C75 /* FMScrollViewProbjectUITests */,
+				32030A901CE07C9400D42C75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32030A901CE07C9400D42C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32030A8F1CE07C9400D42C75 /* FMScrollViewProbject.app */,
+				32030AA81CE07C9400D42C75 /* FMScrollViewProbjectTests.xctest */,
+				32030AB31CE07C9400D42C75 /* FMScrollViewProbjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32030A911CE07C9400D42C75 /* FMScrollViewProbject */ = {
+			isa = PBXGroup;
+			children = (
+				32030AE21CE07D6C00D42C75 /* FMConfigure.h */,
+				320C13D91D47593800D77B7C /* FMAutoLayout */,
+				32030B191CE0848500D42C75 /* FMImgPicker */,
+				32030B0B1CE0809F00D42C75 /* PZRefreshControl */,
+				32030AD81CE07D4200D42C75 /* FMScrollView */,
+				32030AC51CE07D1100D42C75 /* example */,
+				32030A951CE07C9400D42C75 /* AppDelegate.h */,
+				32030A961CE07C9400D42C75 /* AppDelegate.m */,
+				32030AE91CE07DFC00D42C75 /* FMDataManager.h */,
+				32030AEA1CE07DFC00D42C75 /* FMDataManager.m */,
+				32030B001CE07FBD00D42C75 /* FMBaseDTO */,
+				32030AF31CE07F6600D42C75 /* category */,
+				32030A9B1CE07C9400D42C75 /* Main.storyboard */,
+				32030A9E1CE07C9400D42C75 /* Assets.xcassets */,
+				32030AA01CE07C9400D42C75 /* LaunchScreen.storyboard */,
+				32030AA31CE07C9400D42C75 /* Info.plist */,
+				32030A921CE07C9400D42C75 /* Supporting Files */,
+			);
+			path = FMScrollViewProbject;
+			sourceTree = "<group>";
+		};
+		32030A921CE07C9400D42C75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32030A931CE07C9400D42C75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32030AAB1CE07C9400D42C75 /* FMScrollViewProbjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				32030AAC1CE07C9400D42C75 /* FMScrollViewProbjectTests.m */,
+				32030AAE1CE07C9400D42C75 /* Info.plist */,
+			);
+			path = FMScrollViewProbjectTests;
+			sourceTree = "<group>";
+		};
+		32030AB61CE07C9400D42C75 /* FMScrollViewProbjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32030AB71CE07C9400D42C75 /* FMScrollViewProbjectUITests.m */,
+				32030AB91CE07C9400D42C75 /* Info.plist */,
+			);
+			path = FMScrollViewProbjectUITests;
+			sourceTree = "<group>";
+		};
+		32030AC51CE07D1100D42C75 /* example */ = {
+			isa = PBXGroup;
+			children = (
+				32030AC81CE07D1100D42C75 /* FMTestExpandScrollViewCell.h */,
+				32030AC91CE07D1100D42C75 /* FMTestExpandScrollViewCell.m */,
+				32030ACA1CE07D1100D42C75 /* FMTestFooterScrollViewCell.h */,
+				32030ACB1CE07D1100D42C75 /* FMTestFooterScrollViewCell.m */,
+				32030ACC1CE07D1100D42C75 /* FMTestHeaderScrollViewCell.h */,
+				32030ACD1CE07D1100D42C75 /* FMTestHeaderScrollViewCell.m */,
+				32030ACE1CE07D1100D42C75 /* FMTestScrollViewCell.h */,
+				32030ACF1CE07D1100D42C75 /* FMTestScrollViewCell.m */,
+				32030AD01CE07D1100D42C75 /* FMTestScrollViewController.h */,
+				32030AD11CE07D1100D42C75 /* FMTestScrollViewController.m */,
+			);
+			path = example;
+			sourceTree = "<group>";
+		};
+		32030AD81CE07D4200D42C75 /* FMScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				32030AD91CE07D4200D42C75 /* FMScrollView.h */,
+				32030ADA1CE07D4200D42C75 /* FMScrollView.m */,
+				32030ADB1CE07D4200D42C75 /* FMScrollViewCell.h */,
+				32030ADC1CE07D4200D42C75 /* FMScrollViewCell.m */,
+				32030ADD1CE07D4200D42C75 /* FMScrollViewManager.h */,
+				32030ADE1CE07D4200D42C75 /* FMScrollViewManager.m */,
+			);
+			path = FMScrollView;
+			sourceTree = "<group>";
+		};
+		32030AF31CE07F6600D42C75 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				32030AF41CE07F6600D42C75 /* NSDictionary+Utils.h */,
+				32030AF51CE07F6600D42C75 /* NSDictionary+Utils.m */,
+				32030AF61CE07F6600D42C75 /* NSObject+Utils.h */,
+				32030AF71CE07F6600D42C75 /* NSObject+Utils.m */,
+				32030AF81CE07F6600D42C75 /* NSString+Utils.h */,
+				32030AF91CE07F6600D42C75 /* NSString+Utils.m */,
+				32030AFA1CE07F6600D42C75 /* UIView+extension.h */,
+				32030AFB1CE07F6600D42C75 /* UIView+extension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		32030B001CE07FBD00D42C75 /* FMBaseDTO */ = {
+			isa = PBXGroup;
+			children = (
+				32030B011CE07FBD00D42C75 /* FMBaseDTO.h */,
+				32030B021CE07FBD00D42C75 /* FMBaseDTO.m */,
+				32030B031CE07FBD00D42C75 /* FMSubDTO */,
+			);
+			path = FMBaseDTO;
+			sourceTree = "<group>";
+		};
+		32030B031CE07FBD00D42C75 /* FMSubDTO */ = {
+			isa = PBXGroup;
+			children = (
+				32030B041CE07FBD00D42C75 /* FMImgPickerDTO.h */,
+				32030B051CE07FBD00D42C75 /* FMImgPickerDTO.m */,
+				32030B061CE07FBD00D42C75 /* FMImgPickerTableDTO.h */,
+				32030B071CE07FBD00D42C75 /* FMImgPickerTableDTO.m */,
+				32030B3A1CE0866600D42C75 /* FMTestFooterDTO.h */,
+				32030B3B1CE0866600D42C75 /* FMTestFooterDTO.m */,
+				32030B3D1CE086FE00D42C75 /* FMTestHeaderDTO.h */,
+				32030B3E1CE086FE00D42C75 /* FMTestHeaderDTO.m */,
+				32030B401CE092CA00D42C75 /* FMTestScrollViewDTO.h */,
+				32030B411CE092CA00D42C75 /* FMTestScrollViewDTO.m */,
+				32030B431CE0953D00D42C75 /* FMTestExpandDTO.h */,
+				32030B441CE0953D00D42C75 /* FMTestExpandDTO.m */,
+			);
+			path = FMSubDTO;
+			sourceTree = "<group>";
+		};
+		32030B0B1CE0809F00D42C75 /* PZRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				32030B0C1CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.h */,
+				32030B0D1CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.m */,
+				32030B0E1CE0809F00D42C75 /* PZRefreshControl.h */,
+				32030B0F1CE0809F00D42C75 /* PZRefreshControl.m */,
+				32030B101CE0809F00D42C75 /* PZRefreshControlDefaultStyle.h */,
+				32030B111CE0809F00D42C75 /* PZRefreshControlDefaultStyle.m */,
+				32030B121CE0809F00D42C75 /* PZRefreshControlStyle.h */,
+				32030B131CE0809F00D42C75 /* PZRefreshNormalControl.h */,
+				32030B141CE0809F00D42C75 /* PZRefreshNormalControl.m */,
+			);
+			path = PZRefreshControl;
+			sourceTree = "<group>";
+		};
+		32030B191CE0848500D42C75 /* FMImgPicker */ = {
+			isa = PBXGroup;
+			children = (
+				32030B1A1CE0848500D42C75 /* Controllers */,
+				32030B1D1CE0848500D42C75 /* Models */,
+				32030B1E1CE0848500D42C75 /* Views */,
+			);
+			path = FMImgPicker;
+			sourceTree = "<group>";
+		};
+		32030B1A1CE0848500D42C75 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32030B1B1CE0848500D42C75 /* FMImgPickerViewController.h */,
+				32030B1C1CE0848500D42C75 /* FMImgPickerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		32030B1D1CE0848500D42C75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		32030B1E1CE0848500D42C75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				320C13F91D47599600D77B7C /* FMImgPickerTitleButtonView.h */,
+				320C13FA1D47599600D77B7C /* FMImgPickerTitleButtonView.m */,
+				32030B1F1CE0848500D42C75 /* FMImgPickerHeaderViewCell.h */,
+				32030B201CE0848500D42C75 /* FMImgPickerHeaderViewCell.m */,
+				32030B211CE0848500D42C75 /* FMImgPickerTableViewCell.h */,
+				32030B221CE0848500D42C75 /* FMImgPickerTableViewCell.m */,
+				32030B231CE0848500D42C75 /* FMImgPickerViewCell.h */,
+				32030B241CE0848500D42C75 /* FMImgPickerViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		320C13D91D47593800D77B7C /* FMAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				320C13DA1D47593800D77B7C /* AutoLayoutHeader.h */,
+				320C13DB1D47593800D77B7C /* FMAutoLayoutModel.h */,
+				320C13DC1D47593800D77B7C /* FMAutoLayoutModel.m */,
+				320C13DD1D47593800D77B7C /* FMAutoLayoutModelItem.h */,
+				320C13DE1D47593800D77B7C /* FMAutoLayoutModelItem.m */,
+				320C13DF1D47593800D77B7C /* FMUIViewCategoryManager.h */,
+				320C13E01D47593800D77B7C /* FMUIViewCategoryManager.m */,
+				320C13E11D47593800D77B7C /* UILabel+FMLabelAutoResize.h */,
+				320C13E21D47593800D77B7C /* UILabel+FMLabelAutoResize.m */,
+				320C13E31D47593800D77B7C /* UIScrollView+FMAutoContentSize.h */,
+				320C13E41D47593800D77B7C /* UIScrollView+FMAutoContentSize.m */,
+				320C13E51D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.h */,
+				320C13E61D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.m */,
+				320C13E71D47593800D77B7C /* UIView+FMAutoHeightWidth.h */,
+				320C13E81D47593800D77B7C /* UIView+FMAutoHeightWidth.m */,
+				320C13E91D47593800D77B7C /* UIView+FMAutoLayout.h */,
+				320C13EA1D47593800D77B7C /* UIView+FMAutoLayout.m */,
+				320C13EB1D47593800D77B7C /* UIView+FMChangeFrame.h */,
+				320C13EC1D47593800D77B7C /* UIView+FMChangeFrame.m */,
+				320C13ED1D47593800D77B7C /* UIView+FMLayoutExtention.h */,
+				320C13EE1D47593800D77B7C /* UIView+FMLayoutExtention.m */,
+			);
+			path = FMAutoLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32030A8E1CE07C9400D42C75 /* FMScrollViewProbject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32030ABC1CE07C9400D42C75 /* Build configuration list for PBXNativeTarget "FMScrollViewProbject" */;
+			buildPhases = (
+				32030A8B1CE07C9400D42C75 /* Sources */,
+				32030A8C1CE07C9400D42C75 /* Frameworks */,
+				32030A8D1CE07C9400D42C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMScrollViewProbject;
+			productName = FMScrollViewProbject;
+			productReference = 32030A8F1CE07C9400D42C75 /* FMScrollViewProbject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32030AA71CE07C9400D42C75 /* FMScrollViewProbjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32030ABF1CE07C9400D42C75 /* Build configuration list for PBXNativeTarget "FMScrollViewProbjectTests" */;
+			buildPhases = (
+				32030AA41CE07C9400D42C75 /* Sources */,
+				32030AA51CE07C9400D42C75 /* Frameworks */,
+				32030AA61CE07C9400D42C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32030AAA1CE07C9400D42C75 /* PBXTargetDependency */,
+			);
+			name = FMScrollViewProbjectTests;
+			productName = FMScrollViewProbjectTests;
+			productReference = 32030AA81CE07C9400D42C75 /* FMScrollViewProbjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32030AB21CE07C9400D42C75 /* FMScrollViewProbjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32030AC21CE07C9400D42C75 /* Build configuration list for PBXNativeTarget "FMScrollViewProbjectUITests" */;
+			buildPhases = (
+				32030AAF1CE07C9400D42C75 /* Sources */,
+				32030AB01CE07C9400D42C75 /* Frameworks */,
+				32030AB11CE07C9400D42C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32030AB51CE07C9400D42C75 /* PBXTargetDependency */,
+			);
+			name = FMScrollViewProbjectUITests;
+			productName = FMScrollViewProbjectUITests;
+			productReference = 32030AB31CE07C9400D42C75 /* FMScrollViewProbjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32030A871CE07C9400D42C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王刚";
+				TargetAttributes = {
+					32030A8E1CE07C9400D42C75 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 25N3Y6XGYH;
+					};
+					32030AA71CE07C9400D42C75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32030A8E1CE07C9400D42C75;
+					};
+					32030AB21CE07C9400D42C75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 32030A8E1CE07C9400D42C75;
+					};
+				};
+			};
+			buildConfigurationList = 32030A8A1CE07C9400D42C75 /* Build configuration list for PBXProject "FMScrollViewProbject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32030A861CE07C9400D42C75;
+			productRefGroup = 32030A901CE07C9400D42C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32030A8E1CE07C9400D42C75 /* FMScrollViewProbject */,
+				32030AA71CE07C9400D42C75 /* FMScrollViewProbjectTests */,
+				32030AB21CE07C9400D42C75 /* FMScrollViewProbjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32030A8D1CE07C9400D42C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32030AA21CE07C9400D42C75 /* LaunchScreen.storyboard in Resources */,
+				32030A9F1CE07C9400D42C75 /* Assets.xcassets in Resources */,
+				32030A9D1CE07C9400D42C75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32030AA61CE07C9400D42C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32030AB11CE07C9400D42C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32030A8B1CE07C9400D42C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32030B451CE0953D00D42C75 /* FMTestExpandDTO.m in Sources */,
+				32030A971CE07C9400D42C75 /* AppDelegate.m in Sources */,
+				32030AD41CE07D1100D42C75 /* FMTestFooterScrollViewCell.m in Sources */,
+				32030B151CE0809F00D42C75 /* PZPathAnimCircleRefreshControl.m in Sources */,
+				32030AE11CE07D4200D42C75 /* FMScrollViewManager.m in Sources */,
+				32030AFE1CE07F6600D42C75 /* NSString+Utils.m in Sources */,
+				320C13F31D47593800D77B7C /* UIScrollView+FMAutoContentSize.m in Sources */,
+				32030ADF1CE07D4200D42C75 /* FMScrollView.m in Sources */,
+				32030B171CE0809F00D42C75 /* PZRefreshControlDefaultStyle.m in Sources */,
+				32030B3F1CE086FE00D42C75 /* FMTestHeaderDTO.m in Sources */,
+				32030B091CE07FBD00D42C75 /* FMImgPickerDTO.m in Sources */,
+				32030B301CE0848500D42C75 /* FMImgPickerHeaderViewCell.m in Sources */,
+				32030B311CE0848500D42C75 /* FMImgPickerTableViewCell.m in Sources */,
+				32030AE01CE07D4200D42C75 /* FMScrollViewCell.m in Sources */,
+				320C13EF1D47593800D77B7C /* FMAutoLayoutModel.m in Sources */,
+				320C13FB1D47599600D77B7C /* FMImgPickerTitleButtonView.m in Sources */,
+				320C13F51D47593800D77B7C /* UIView+FMAutoHeightWidth.m in Sources */,
+				32030B3C1CE0866600D42C75 /* FMTestFooterDTO.m in Sources */,
+				32030B421CE092CA00D42C75 /* FMTestScrollViewDTO.m in Sources */,
+				32030AEB1CE07DFC00D42C75 /* FMDataManager.m in Sources */,
+				32030A941CE07C9400D42C75 /* main.m in Sources */,
+				32030AD51CE07D1100D42C75 /* FMTestHeaderScrollViewCell.m in Sources */,
+				32030AFD1CE07F6600D42C75 /* NSObject+Utils.m in Sources */,
+				32030AFF1CE07F6600D42C75 /* UIView+extension.m in Sources */,
+				32030AD61CE07D1100D42C75 /* FMTestScrollViewCell.m in Sources */,
+				320C13F81D47593800D77B7C /* UIView+FMLayoutExtention.m in Sources */,
+				32030AD31CE07D1100D42C75 /* FMTestExpandScrollViewCell.m in Sources */,
+				320C13F11D47593800D77B7C /* FMUIViewCategoryManager.m in Sources */,
+				32030AD71CE07D1100D42C75 /* FMTestScrollViewController.m in Sources */,
+				32030B321CE0848500D42C75 /* FMImgPickerViewCell.m in Sources */,
+				32030B0A1CE07FBD00D42C75 /* FMImgPickerTableDTO.m in Sources */,
+				32030B161CE0809F00D42C75 /* PZRefreshControl.m in Sources */,
+				320C13F71D47593800D77B7C /* UIView+FMChangeFrame.m in Sources */,
+				32030AFC1CE07F6600D42C75 /* NSDictionary+Utils.m in Sources */,
+				320C13F01D47593800D77B7C /* FMAutoLayoutModelItem.m in Sources */,
+				32030B2F1CE0848500D42C75 /* FMImgPickerViewController.m in Sources */,
+				320C13F21D47593800D77B7C /* UILabel+FMLabelAutoResize.m in Sources */,
+				320C13F61D47593800D77B7C /* UIView+FMAutoLayout.m in Sources */,
+				32030B181CE0809F00D42C75 /* PZRefreshNormalControl.m in Sources */,
+				320C13F41D47593800D77B7C /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				32030B081CE07FBD00D42C75 /* FMBaseDTO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32030AA41CE07C9400D42C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32030AAD1CE07C9400D42C75 /* FMScrollViewProbjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32030AAF1CE07C9400D42C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32030AB81CE07C9400D42C75 /* FMScrollViewProbjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32030AAA1CE07C9400D42C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32030A8E1CE07C9400D42C75 /* FMScrollViewProbject */;
+			targetProxy = 32030AA91CE07C9400D42C75 /* PBXContainerItemProxy */;
+		};
+		32030AB51CE07C9400D42C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32030A8E1CE07C9400D42C75 /* FMScrollViewProbject */;
+			targetProxy = 32030AB41CE07C9400D42C75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32030A9B1CE07C9400D42C75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32030A9C1CE07C9400D42C75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32030AA01CE07C9400D42C75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32030AA11CE07C9400D42C75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32030ABA1CE07C9400D42C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32030ABB1CE07C9400D42C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32030ABD1CE07C9400D42C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FMScrollViewProbject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.FMScrollViewProbject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		32030ABE1CE07C9400D42C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = FMScrollViewProbject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.FMScrollViewProbject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		32030AC01CE07C9400D42C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMScrollViewProbjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.FMScrollViewProbjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMScrollViewProbject.app/FMScrollViewProbject";
+			};
+			name = Debug;
+		};
+		32030AC11CE07C9400D42C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FMScrollViewProbjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.FMScrollViewProbjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMScrollViewProbject.app/FMScrollViewProbject";
+			};
+			name = Release;
+		};
+		32030AC31CE07C9400D42C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMScrollViewProbjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.FMScrollViewProbjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMScrollViewProbject;
+			};
+			name = Debug;
+		};
+		32030AC41CE07C9400D42C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FMScrollViewProbjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.FMScrollViewProbjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FMScrollViewProbject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32030A8A1CE07C9400D42C75 /* Build configuration list for PBXProject "FMScrollViewProbject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32030ABA1CE07C9400D42C75 /* Debug */,
+				32030ABB1CE07C9400D42C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32030ABC1CE07C9400D42C75 /* Build configuration list for PBXNativeTarget "FMScrollViewProbject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32030ABD1CE07C9400D42C75 /* Debug */,
+				32030ABE1CE07C9400D42C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32030ABF1CE07C9400D42C75 /* Build configuration list for PBXNativeTarget "FMScrollViewProbjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32030AC01CE07C9400D42C75 /* Debug */,
+				32030AC11CE07C9400D42C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32030AC21CE07C9400D42C75 /* Build configuration list for PBXNativeTarget "FMScrollViewProbjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32030AC31CE07C9400D42C75 /* Debug */,
+				32030AC41CE07C9400D42C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32030A871CE07C9400D42C75 /* Project object */;
+}
