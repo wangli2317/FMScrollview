@@ -20,7 +20,6 @@
 @property (nonatomic,assign) BOOL isLoading;
 @property (nonatomic,assign) NSInteger lastUpDateTime;
 @property (nonatomic,strong) NSMutableDictionary *otherParams;
-@property (nonatomic,assign) BOOL onlyOnePage;/*新增的一个属性,用于确保 DataSource 始终只返回第一页的内容,在 init 方法中进行了初始化为 NO ,在loadDataSource方法中有具体逻辑 --by Dongxiaowei */
 
 @property (nonatomic, assign, readwrite) CGFloat adjustInsetHeight;
 

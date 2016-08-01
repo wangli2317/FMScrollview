@@ -62,7 +62,6 @@
     self.vdelegate = delegate;
     self.lastUpDateTime = 0;
     self.otherParams = otherParams;
-    self.onlyOnePage = NO;
     
     self.scrollView  = [[FMScrollView alloc] initWithProperties:frame columWidth:columnWidth cellPaddingTop:cellPaddingTop startY:startY cellMarginLeftCols:leftMarginCols needPzRefreshControl:needPzRefreshControl];
     self.scrollView.vdelegate = self;
@@ -115,11 +114,6 @@
 //            }
         }
         
-        if(self.onlyOnePage)
-        {
-            self.page = 1;
-            self.onlyOnePage = NO;
-        }
          __weak __typeof(self)wself = self;
         [[FMDataManager sharedFMDataManger] fetchDataFromServerWithDataMethod:self.dataMethod page:self.page otherParams:self.otherParams success:^(id data) {
             __strong __typeof(wself)strongSelf = wself;

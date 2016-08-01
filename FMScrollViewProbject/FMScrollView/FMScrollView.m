@@ -11,7 +11,6 @@
 #import "FMScrollViewCell.h"
 #import "NSObject+Utils.h"
 #import "PZPathAnimCircleRefreshControl.h"
-//#import "FMAvatarButton.h"
 #import "PZRefreshControlDefaultStyle.h"
 #import "PZRefreshNormalControl.h"
 #import "FMBaseDTO.h"
