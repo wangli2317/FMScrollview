@@ -2,8 +2,8 @@
 //  FMDataManager.m
 //  mogi
 //
-//  Created by cherry on 15/8/12.
-//  Copyright (c) 2015年 com.8w4q. All rights reserved.
+//  Created by 王刚 on 9/5/16.
+//  Copyright © 2016年 王刚. All rights reserved.
 //
 
 //Frameworks
@@ -104,8 +104,10 @@
     expandDTO.content = @"别呀";
     expandDTO.FM_CLASSTYPE = @"FMTestExpandScrollViewCell";
     
-    if (success) {
+    if (success&&page==1) {
         success([NSArray arrayWithObjects:testScrollDTO,testScrollDTO,expandDTO,expandDTO,testScrollDTO,expandDTO ,nil]);
+    }else{
+        failed(@"没有数据了");
     }
 }
 @end

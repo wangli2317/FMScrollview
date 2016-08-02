@@ -2,8 +2,8 @@
 //  FMScrollVIew.m
 //  mogi
 //
-//  Created by Jason.Li on 15/12/15.
-//  Copyright © 2015年 com.8w4q. All rights reserved.
+//  Created by 王刚 on 9/5/16.
+//  Copyright © 2016年 王刚. All rights reserved.
 //
 
 #import "FMScrollVIew.h"
@@ -29,7 +29,6 @@ static inline NSInteger String2Index(NSString *key) {
 }
 
 
-// This is just so we know that we sent this tap gesture recognizer in the delegate
 @interface FMScrollViewTapGestureRecognizer : UITapGestureRecognizer
 @end
 

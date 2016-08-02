@@ -2,8 +2,8 @@
 //  FMTestScrollViewController.m
 //  mogi
 //
-//  Created by cherry on 15/12/17.
-//  Copyright © 2015年 com.8w4q. All rights reserved.
+//  Created by 王刚 on 9/5/16.
+//  Copyright © 2016年 王刚. All rights reserved.
 //
 
 #import "FMTestScrollViewController.h"
@@ -38,7 +38,7 @@
     FMTestFooterDTO *DTO = [FMTestFooterDTO new];
     DTO.name = @"八万四千";
     DTO.FM_CLASSTYPE = @"FMTestFooterScrollViewCell";
-    DTO.title = @"Copyright © 2009-2016 oNightJar.com. All screenshots © their respective owners. Handcrafted in Beijing.";
+    DTO.title = @"imagepicker";
     
     [self.scrollViewManager startLoadWithFooterItems:@[DTO]];
 }
