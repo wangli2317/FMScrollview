@@ -278,7 +278,6 @@ static NSInteger const tableCellH = 70;
 - (void)showInViewContrller:(UIViewController *)vc choosenNum:(NSInteger)choosenNum maxChooseCount:(NSInteger)maxChooseCount delegate:(id<FMImgPickerViewControllerDelegate>)vcdelegate{
     
     
-    
     self.delegate = vcdelegate;
     self.choosenCount = choosenNum;
     self.maxChooseCount = maxChooseCount;
